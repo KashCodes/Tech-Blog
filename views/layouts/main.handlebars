@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Blog</title>
+  <title>Tech Blogger</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
+
 <body>
-  
+  <div class="wrapper">
+    <header>
+
+      <nav>
+        {{#if loggedIn}}
+        <a href="/">home</a>
+        <a href="/dashboard">Dashboard</a>
+        <button id="logout" class="btn-no-style">Logout</button>
+        {{else}}
+        <a href="/login">Login</a>
+        {{/if}}
+      </nav>
+      <div class="title-wrapper">
+        <h1>
+          <a href="/">Tech Blogger</a>
+        </h1>
+      </div>
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+    <footer>
+    </footer>
+  </div>
+
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
+
 </html>

@@ -1,0 +1,21 @@
+{{!-- USED BY controllers/home-routes.js --}}
+
+<ol class="post-list">
+  {{!-- Start of looping over each item in post array with #each --}}
+  {{#each posts as |post|}}
+  <li>
+
+    <article class="post">
+      <div class="title">
+        <h2><a href="/post/{{id}}">{{title}}</a> <span>(created by {{user.username}} on {{format_date
+            created_at}})</span></h2>
+      </div>
+      <div class="meta">
+        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+      </div>
+    </article>   
+    
+  </li>
+  {{!-- End of looping over each item in post array --}}
+  {{/each}}
+</ol>

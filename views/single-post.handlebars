@@ -1,0 +1,25 @@
+{{!-- USED BY controllers/home-routes.js --}}
+
+{{!-- Partial = "> and then name of file and object passing" --}}
+{{> post-info post }}
+
+{{!-- Comments are only available if they are logged in --}}
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">add comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{> comments post.comments}}
+
+{{!-- If they're logged in they have access to commenting and even upvoting a post --}}
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+<script src="/javascript/upvote.js"></script>
+{{/if}}
