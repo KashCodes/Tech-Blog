@@ -1,57 +1,63 @@
-# Your Task
+<h1 align="center">Tech Blog</h1>
+  
+  <p align="center">
+    <img src="https://img.shields.io/github/repo-size/KashCodes/Tech-Blog?style=plastic" />
+    <img src="https://img.shields.io/github/languages/count/KashCodes/Tech-Blog?style=plastic" />
+    <img src="https://img.shields.io/github/languages/top/KashCodes/Tech-Blog?style=plastic" />
+    <img src="https://img.shields.io/github/last-commit/KashCodes/Tech-Blog?style=plastic" />
+  </p>
 
-Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
+  <p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/Express-orange" />
+    <img src="https://img.shields.io/badge/-Node.js-green" />
+    <img src="https://img.shields.io/badge/-MySQL-purple" />
+    <img src="https://img.shields.io/badge/-ScreenCastify-red" />
+    <img src="https://img.shields.io/badge/-Sequelize-purple"" />
+  </p>
+  
+  ## Description
+  ❓  Tech Blog that allows you to create a username and password to create and comment on blog posts. 
 
-Your challenge this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+![demo](./src/demo.png)
 
-# User Story
+## Table of Contents
 
-`AS A developer who writes about tech`</br>
-`I WANT a CMS-style blog site`</br>
-`SO THAT I can publish articles, blog posts, and my thoughts and opinions`</br>
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Questions](#questions)
 
-# Acceptance Criteria
+## Installation
 
-`GIVEN a CMS-style blog site`</br>
-`WHEN I visit the site for the first time`</br>
-`THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in`</br>
-`WHEN I click on the homepage option`</br>
-`THEN I am taken to the homepage`</br>
-`WHEN I click on any other links in the navigation`</br>
-`THEN I am prompted to either sign up or sign in`</br>
-`WHEN I choose to sign up`</br>
-`THEN I am prompted to create a username and password`</br>
-`WHEN I click on the sign-up button`</br>
-`THEN my user credentials are saved and I am logged into the site`</br>
-`WHEN I revisit the site at a later time and choose to sign in`</br>
-`THEN I am prompted to enter my username and password`</br>
-`WHEN I am signed in to the site`</br>
-`THEN I see navigation links for the homepage, the dashboard, and the option to log out`</br>
-`WHEN I click on the homepage option in the navigation`</br>
-`THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created`</br>
-`WHEN I click on an existing blog post`</br>
-`THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment`</br>
-`WHEN I enter a comment and click on the submit button while signed in`</br>
-`THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created`</br>
-`WHEN I click on the dashboard option in the navigation`</br>
-`THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post`</br>
-`WHEN I click on the button to add a new blog post`</br>
-`THEN I am prompted to enter both a title and contents for my blog post`</br>
-`WHEN I click on the button to create a new blog post`</br>
-`THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post`</br>
-`WHEN I click on one of my existing posts in the dashboard`</br>
-`THEN I am able to delete or update my post and taken back to an updated dashboard`</br>
-`WHEN I click on the logout option in the navigation`</br>
-`THEN I am signed out of the site`</br>
-`WHEN I am idle on the page for more than a set time`</br>
-`THEN I am automatically signed out of the site`</br> 
+🚨 You will need download the application files, create a MySQL database, and install the following dependencies:<br />
+`npm init i`<br />
 
-# Mock-Up
 
-(./14-mvc-homework-demo-01.gif)
+## GitHub Repository Link:
 
-# Getting Started
+> https://github.com/KashCodes/Tech-Blog
 
-Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to use Handlebars.js for your Views, use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+## Usage
 
-You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
+> https://kashcodes-tech-blog.herokuapp.com/
+
+## License
+
+![badge](https://img.shields.io/badge/license-MIT-success)
+<br />
+This application is covered by the MIT license.
+
+## 👥Contributors:
+
+:octocat: [KashCodes](https://github.com/KashCodes)<br />
+:octocat: [Dan Arbelo](https://github.com/govepitr)
+
+## Questions
+
+🔧 Please feel free e-mail me should you have any questions, comments, or concerns. Or you can also connect with me through GitHub.<br />
+<br />
+:octocat: Find me on GitHub: [KashCodes](https://github.com/KashCodes)
+📜 Feel free to email me with any questions: kashay@arbelo.me<br /><br />
