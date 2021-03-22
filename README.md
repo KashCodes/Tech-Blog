@@ -19,7 +19,7 @@
   ## Description
   ❓  Tech Blog that allows you to create a username and password to create and comment on blog posts. 
 
-![demo](./src/demo.png)
+![demo](./src/demo.PNG)
 
 ## Table of Contents
 
